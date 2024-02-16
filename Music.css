@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+
+}
+body{
+    height:100%;
+    width: 100%;
+    position: relative;
+    background-color: #f8f9fa;
+}
+li{
+    cursor: pointer;
+}
+.navigation{
+    display: flex;
+    position:fixed;
+    height: 10vh;
+    width: 100%;
+    border-bottom: .5px solid #c8c9ca;
+}
+.navigation .head {
+    display: flex;
+    position: inherit;
+    top: 3vh
+}
+.navigation .head li img{
+    height: 33px;
+}
+.navigation .head li{
+    list-style-type: none;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: #878a8d;
+    font-weight: 600;
+}
+svg{
+    height: 15px;
+    margin-left: 4px;
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    cursor: pointer;
+}
+.navigation input{
+    position: inherit;
+    border-radius: 22px;
+    top: 3vh;
+    border: 1px solid #c8c9ca;
+    right: 34vw;
+    width: 30vw;
+    height: 5.5vh;
+    text-align: center;
+}
+.navigation .left{
+    font-size: 15px;
+    color: #878a8d;
+    font-weight: 600;
+    position: inherit;
+    right: 2px;
+    top:3vh;
+    display: flex;
+    align-items: center;
+}
+.navigation .left li{
+    list-style-type: none;
+    margin: 0 12px;
+    
+}
+.para{
+    display: flex;
+    margin-top: 8px;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+}
+
+.language{
+    position: absolute;
+    top: 13vh;
+    right: 9vh;
+    height: 73vh;
+    list-style-type: none;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    border: 1px solid #c8c9ca;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#click{
+    display: none  
+}
+
+.language li{
+    padding: 0 140px;
+    border: 1px solid #c8c9ca;
+    width: 0vh;
+    display: flex;
+    justify-content: center;
+}
+.language table{
+    border: 1px solid #c8c9ca;
+    margin-top: 20px;
+}
+.language table tr td{
+    padding: 7px 45px;
+    border: 1px solid #c8c9ca
+}
+.language input{
+    top: 63vh;
+    left: 6vw;
+    border-radius: 9px;
+    height: 6vh;
+    width: 11vw;
+    color: white;
+    font-weight: 400;
+    background-color: #2bc5b4;
+}
+
+.side{
+    position: absolute;
+    margin-top: 10vh;
+    height: 77vh;
+    width: 15vw;
+    border-right: 1px solid #c8c9ca;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    color: #878a8d;
+    font-weight: 600;
+    list-style-type: none;
+    overflow-x: scroll;
+}
+.side .first p{
+    font-size: 13px;
+}
+.side .first{
+    margin-top: 6vh;
+}
+.side .li{
+    margin-top: 6vh ;
+}
+.side .first li{
+    margin-top: 20px;
+}
+.side .second{
+    margin-top: 6vh;
+}
+.side .second li{
+    margin-top: 20px;
+}
+.bottom{
+    height: 13vh;
+    width: 100vw;
+    border-top: 2px solid #c8c9ca;
+}
+.playlist{
+    font-size: 17px;
+    border-radius: 25px;
+    padding: 12px 18px 16px 12px;
+    margin: 30px 0 30px 0;
+    color: #2bc5b4;
+    border: 2px solid #2bc5b4
+}
+.playlist svg{
+    
+}
+.bottom{
+    position: fixed;
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom svg{
+    height: 3.5vh;
+    margin: 20px;
+    cursor: pointer;
+}
+.bottomcorner{
+    position: absolute;
+    right: 5px
+}
+.bottomcorner svg{
+    height: 3.5vh;
+    margin: 20px;
+    cursor: pointer;
+}
